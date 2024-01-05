@@ -1,0 +1,34 @@
+{
+  "name": "crudapi-request",
+  "version": "1.0.0",
+  "description": "Module to make requests to a {CRUD:API} (https://crudapi.co.uk/)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/app.js",
+    "docs": "jsdoc2md index.js > README.md"
+  },
+  "keywords": [
+    "json",
+    "free",
+    "storage",
+    "crudapi",
+    "api",
+    "data",
+    "store"
+  ],
+  "author": "Brian Marquez <bridevmx@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "jsdoc": "^4.0.2",
+    "nodemon": "^3.0.2",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "bent": "^7.3.12"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
